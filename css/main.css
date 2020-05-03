@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800&display=swap');
+
+body,
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	line-height: 1.7;
+	color: #00509a;
+	font-weight: 400;
+	margin: 0 auto;
+	position: relative;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiase;
+}
+
+.container {
+	max-width: 1210px;
+	padding: 0;
+}
+
+li,
+p {
+	display: block;
+	line-height: 1.7;
+	margin-bottom: 0;
+}
+
+a {
+	color: #00509a;
+}
+
+a:hover {
+	color: #00509a;
+	text-decoration: none;
+}
+
+.section_space {
+	padding: 50px 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: inherit;
+	line-height: 1.3;
+}
+
+/*======navbar========*/
+.navbar {
+	background-color: #fff;
+	padding: 0px;
+	border-top: 10px solid #FFA80C;
+}
+
+.navbar-brand {
+	width: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	text-transform: uppercase;
+	transition: all .3s ease 0s;
+	font-size: 0.875rem;
+	display: block;
+	padding-right: 0;
+	font-weight: 700;
+	margin-left: 20px;
+	color: #00509a;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+	color: #FFA80C;
+}
+
+.nav-link.servi_icon:after {
+	content: "\f078";
+	font-family: "FontAwesome";
+	padding-left: 5px;
+	font-size: 11px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #FFA80C;
+}
+
+.navbar-toggler span {
+	color: #00509a;
+	font-size: 25px;
+	border: none;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.navbar-light .navbar-toggler {
+	color: #00509a;
+	border-color: none;
+}
+
+.navbar-toggler:focus {
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+
+.navbar-toggler {
+	padding: .25rem .75rem;
+	font-size: 1.25rem;
+	line-height: 1;
+	background-color: transparent;
+	border: none;
+	border-radius: .25rem;
+}
+
+. .navbar.compressed {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#hero {
+	background: linear-gradient(rgba(0, 26, 51, .7), rgba(0, 26, 51, .7)),
+		url('../img/garry_hero.jpg');
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 680px;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+
+
+.hero_caption {
+	max-width: 70%;
+	color: #fff;
+	margin-top: 5%;
+}
+
+.hero_h5 {
+	font-size: 1.7rem;
+	text-transform: capitalize;
+	color: #FFA80C;
+	font-weight: 600;
+}
+
+.hero_h1 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 20px 0;
+}
+
+.btn_hero {
+	background-color: #00509a;
+	border: 1px solid #00509a;
+	color: #fff;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-weight: 900;
+}
+
+.btn_hero:hover {
+	color: #00509a;
+	border: 1px solid #00509a;
+	background-color: #FFA80C;
+}
+
+/*==== about section ======*/
+.about_us {
+	background: #f4f8f8;
+}
+
+.top_of_title {
+	color: #FFA80C;
+	text-transform: uppercase;
+	font-weight: 400;
+	display: inline;
+	font-size: 0.775rem;
+	position: relative;
+}
+
+.title_h2 {
+	font-weight: 700;
+	font-size: 1.7rem;
+}
+
+.about_p {
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+/*========mission vision values section=============*/
+
+.mission_value_vision {
+	margin-top: 50px;
+}
+
+.mission_value_vision img {
+	width: 50px;
+}
+
+.mission_value_visin_h4 {
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.box {
+	padding: 20px 20px;
+	background-color: #fff;
+	height: 300px;
+}
+
+.box_img i {
+	font-size: 1.5rem;
+	background-color: #FFA80C;
+	padding: 20px;
+	border-radius: 50%;
+}
+
+.the_client {
+	font-weight: 600;
+	text-transform: capitalize;
+	border-bottom: 1px solid #FFA80C;
+}
+
+.under_title_p {
+	max-width: 60%;
+	margin: auto;
+}
+
+
+/*==== SERVICES SECTION ======*/
+.services_wrapper {
+	margin-top: 30px;
+}
+
+.about_img_left {
+	width: 100%;
+	height: 320px;
+}
+
+.about_img_left img {
+	width: 100%;
+	height: 320px;
+	object-fit: cover;
+}
+
+.box_img_services {
+	width: 100%;
+	height: 200px;
+}
+
+.box_img_services img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.service_h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2rem;
+	border-bottom: 2px solid #FFA80C;
+	max-width: 453px;
+}
+
+.service_p {
+	padding-bottom: 10px;
+}
+
+.list_services {
+	margin: 10px 0;
+}
+
+.list_services i {
+	padding-right: 10px;
+	color: #FFA80C;
+}
+
+.btn_quote {
+	font-weight: 600;
+	border: 1px solid #00509a;
+	color: #fff;
+	background-color: #00509a;
+	padding: 10px 25px;
+	font-size: 0.875rem;
+}
+
+.btn_quote:hover {
+	color: #FFA80C;
+	border: 1px solid #00509a;
+}
+
+
+.box_servcies_content {
+	background-color: #00509a;
+}
+
+.service_h5_name {
+	padding: 10px 0;
+	color: #fff;
+	font-weight: 600;
+}
+
+.service_breaf_desc {
+	padding: 20px 20px;
+	background-color: #e0ebeb;
+	border-bottom: 1px solid #b1cdcd;
+}
+
+.box_two_serv_wrapper {
+	background: #f4f8f8;
+	padding: 5px 0;
+}
+
+.servi_wrapper_button {
+	margin-top: 30px;
+}
+
+/*======== CALL TO ACTION HOME ==========*/
+.call_to_action {
+	background-color: #00509a;
+	padding: 60px 0;
+}
+
+.home_call_action_content {
+	color: #fff;
+
+}
+
+.call_to_action_btn {
+	color: #00509a;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: #FFA80C;
+	;
+}
+
+.call_to_action_btn:hover {
+	background-color: #d9d9d9;
+	color: #00509a;
+}
+
+.call_to_action_p {
+	margin-bottom: 15px;
+}
+
+/*==========CONTACT SECTION=============*/
+
+.to_use_email_newsletter {
+	font-size: 0.7rem;
+	color: #333;
+	padding-top: 10px;
+}
+
+.contact_form {
+	margin-top: 15px;
+}
+
+
+.footer {
+	background-color: #00284d;
+	color: #fff;
+}
+
+.sb_mozmedia {
+	background-color: #001a33;
+	color: #fff;
+	padding: 10px 0;
+}
+
+.footer_title {
+	font-weight: 600;
+}
+
+.garry_footer_p {
+	font-weight: 700;
+}
+
+.services_footer_list .list_unstyled {
+	padding-left: 0;
+}
+
+.list_unstyled a {
+	color: #fff;
+	border-bottom: 1px solid #FFA80C;
+}
+
+
+
+.sb_mozmedia a {
+	color: #FFA80C;
+}
+
+/*============== MEDIA QUIRES ==============*/
+
+@media (max-width: 750px) {
+	.navbar-brand {
+		width: 100px;
+		padding-left: 20px;
+	}
+
+	#hero {
+		height: 550px;
+	}
+
+	.hero_caption {
+		max-width: 100%;
+		margin-top: 15%;
+	}
+
+	.hero_h5 {
+		font-size: 1rem;
+	}
+
+	.hero_h1 {
+		font-size: 1.7rem;
+	}
+
+	.hero_h4 {
+		font-size: 1rem;
+	}
+
+	/*==== about section ======*/
+
+	.section_space {
+		padding: 10px 0;
+	}
+
+	.about_img_left {
+		display: none;
+	}
+
+	.title_h2 {
+		font-size: 1.2rem;
+	}
+
+	.container {
+		text-align: center;
+		padding: 0 20px;
+	}
+
+	.under_title_p {
+		max-width: 100%;
+	}
+
+	.mobile_view {
+		margin: 20px 0;
+	}
+
+	.call_to_action {
+
+		padding: 30px 0;
+	}
+
+	.contact_form {
+		margin-top: 10px;
+	}
+
+
+}
